@@ -1,11 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.png";
-import project_person from "../assets/images/project_person1.png";
+// import
+import project1 from "../assets/images/pismo.avif";
+import project2 from "../assets/images/shortener.avif";
+import project3 from "../assets/images/lendsqr.avif";
+import project4 from "../assets/images/jobfilter.avif";
+import project5 from "../assets/images/country.avif";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -14,34 +14,34 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://myreactflix.netlify.app",
+      name: "Pismo Clone",
+      github_link: "https://github.com/Silverprince01/pismoClone",
+      live_link: "https://pismoclone.netlify.app",
     },
     {
       img: project2,
-      name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      name: "Url Shortener",
+      github_link: "https://github.com/Silverprince01/Url-shortener",
+      live_link: "https://url-shotener.netlify.app",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      name: "LendSqr Test",
+      github_link: "https://github.com/Silverprince01/leannsqr-test",
+      live_link: "https://badru-fuad-lendsqr-fe-test.netlify.app",
     },
     {
       img: project4,
-      name: "React Nav",
+      name: "Job Filter",
       github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
+        "https://github.com/Silverprince01/jobFilter",
+      live_link: "https://filterjobss.netlify.app",
     },
     {
       img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
+      name: "React Country",
+      github_link: "https://github.com/Silverprince01/Country-Rest-API",
+      live_link: "https://contryrest-api.netlify.app",
     },
   ];
   return (
@@ -53,7 +53,7 @@ const Project = () => {
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
       <br />
-      <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
+      <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center justify-center relative">
         <div className="lg:w-2/3 w-full">
           <Swiper
             slidesPerview={1.2}
@@ -98,9 +98,7 @@ const Project = () => {
             ))}
           </Swiper>
         </div>
-        <div className="lg:block hidden">
-          <img src={project_person} alt="" />
-        </div>
+        
       </div>
     </section>
   );
