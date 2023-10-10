@@ -1,11 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import
-import project1 from "../assets/images/pismo.avif";
-import project2 from "../assets/images/shortener.avif";
-import project3 from "../assets/images/lendsqr.avif";
-import project4 from "../assets/images/jobfilter.avif";
-import project5 from "../assets/images/country.avif";
+import project1 from "../assets/images/pismo.png";
+import project2 from "../assets/images/shortener.png";
+import project3 from "../assets/images/lendsqr.png";
+import project4 from "../assets/images/jobfilter.png";
+import project5 from "../assets/images/country.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
